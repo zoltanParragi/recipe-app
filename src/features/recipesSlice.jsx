@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
-const APP_ID = process.env.REACT_APP_APP_ID;
-const APP_KEY = process.env.REACT_APP_APP_KEY;
+const APP_ID = import.meta.env.VITE_APP_ID;
+const APP_KEY = import.meta.env.VITE_APP_KEY;
 
 const initialState = {
     recipesList: [],
