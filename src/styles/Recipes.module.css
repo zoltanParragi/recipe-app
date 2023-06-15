@@ -1,0 +1,71 @@
+.section{
+    padding: 4rem 0 3rem 0;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    background: rgb(217, 217, 217);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.card:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.card > div:not(:last-child) {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgb(173, 173, 173);
+}
+
+.h4{
+    margin: 0;
+}
+
+.cardBody{
+    display: flex;
+}
+
+.imgContainer {
+    width: 200px;
+    height: 200px;
+}
+
+.imgContainer>img {
+    width: 100%;
+}
+
+.textArea{
+    margin-left: 2rem;
+}
+
+.textAreaTitle{
+    display: inline-block;
+    font-weight: bold;
+    width: 130px;
+}
+
+.textArea>div:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.ingredientsWrapper p{
+    line-height: 1.5rem;
+}
+
+.instructionsWrapper a {
+    color: rgb(207, 63, 23);
+}
+
+.favouritesBtn>button{
+    border-radius: 5px;
+}
+
+.favouritesBtn>button:hover{
+    opacity: 0.8;
+}

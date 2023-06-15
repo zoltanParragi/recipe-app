@@ -21,6 +21,9 @@ export const recipesSlice = createSlice({
             .addCase(fetchRecipes.fulfilled, (state, action) => {
                 state.status = "loaded";
                 state.recipesList = action.payload;
+            })
+            .addCase(fetchRecipes.rejected, (state, action) => {
+                state.status = "error";
             });
     },
 })
