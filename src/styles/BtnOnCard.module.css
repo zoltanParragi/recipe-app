@@ -1,0 +1,34 @@
+.favouritesBtn>button{
+    border-radius: 5px;
+}
+
+.favouritesBtn>button:hover{
+    opacity: 0.8;
+}
+
+.favouritesBtn>button:active {
+    background: rgb(119, 119, 119);
+}
+
+.removeFavouritesBtn>button{
+    background: white;
+    color: rgb(207, 63, 23);
+    border-radius: 5px;
+    border: 2px solid rgb(207, 63, 23);
+}
+
+.removeFavouritesBtn>button:hover{
+    opacity: 0.8;
+}
+
+.removeFavouritesBtn>button:active {
+    color: rgb(119, 119, 119);
+    border: 2px solid rgb(119, 119, 119);
+}
+
+@media only screen and (max-width: 650px) {
+    .favouritesBtn>button, .removeFavouritesBtn>button {
+        display: block;
+        margin: 0 auto;
+    }
+}

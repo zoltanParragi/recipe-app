@@ -7,7 +7,8 @@ export const favouritesSlice = createSlice({
     initialState,
     reducers: {
         pushToFavourites: (state, action) => {
-            state.push(action.payload)
+            const found = state.some(el => el.recipe.shareAs === action.payload.recipe.shareAs)
+            if (!found) state.push(action.payload)
         },
         removeFromFavourites: (state, action) => {
             return state.filter(item => item.recipe.shareAs !== action.payload)

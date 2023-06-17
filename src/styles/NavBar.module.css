@@ -1,4 +1,4 @@
-nav {
+.nav {
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -7,6 +7,10 @@ nav {
 .logo {
     font-weight: bold;
     color: rgb(207, 63, 23);
+}
+
+.logoMobile{
+    display: none;
 }
 
 ul {
@@ -18,5 +22,18 @@ ul {
 
 li:not(:first-child) {
     padding-left: 2rem;
+}
+
+@media only screen and (max-width: 650px) {
+    .nav {
+        padding-bottom: 0.6rem;
+    }
+    .logo {
+        display: none;
+    }
+    .logoMobile{
+        display: block;
+    }
+
 }
 

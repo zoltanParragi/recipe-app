@@ -1,4 +1,4 @@
-header {
+.header {
     text-align: center;
     background-image: url("header-bg2.jpg");
 }
@@ -36,6 +36,18 @@ header {
 
 .searchBtn {
     display: inline-block;
-    width: 3rem;
+    width: 3.2rem;
+    border: 2px solid rgb(207, 63, 23);
     border-radius: 0 5px 5px 0;
+}
+
+.searchBtn:active {
+    background: rgb(119, 119, 119);
+    border: 2px solid rgb(119, 119, 119);
+}
+
+@media only screen and (max-width: 650px) {
+    .headerWrapper{
+        width: 90%;
+    }
 }
