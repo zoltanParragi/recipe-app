@@ -2,7 +2,7 @@
 
 React, React Router, React Redux, Redux Thunk használatával készült.
 
-Reszpozív portál.
+Reszponzív portál.
 
 A használt REST API által szolgáltatott adatbázis miatt angol nyelvű oldal.
 
