@@ -1,7 +1,8 @@
 # My Recipe
 
-React, React Router, Redux, Redux Thunk használatával készült.
-Angol nyelvű oldal.
+React, React Router, React Redux, Redux Thunk használatával készült.
+Reszpozív portál.
+A használt REST API által szolgáltatott adatbázis miatt angol nyelvű oldal.
 
 ## Funkciók
 
@@ -10,4 +11,5 @@ Angol nyelvű oldal.
 - A Favourites oldalról egyenként eltávolíthatók az egyes receptek.
 
 ## A receptek forrása
+
 A recepteket az Edamam ingyenes Recipe Search API-ja szolgáltatja (https://developer.edamam.com/edamam-recipe-api).
