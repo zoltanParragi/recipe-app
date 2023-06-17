@@ -3,7 +3,6 @@ import { useDispatch } from 'react-redux'
 import { fetchRecipes } from '../features/recipesSlice'
 import styles from '../styles/Search.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-//import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 export default function Search() {
     const dispatch = useDispatch()

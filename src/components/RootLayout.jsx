@@ -20,5 +20,4 @@ export default function RootLayout() {
     )
 }
 
-
 library.add(fab, fas, far)

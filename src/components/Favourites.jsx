@@ -12,7 +12,7 @@ export default function Favourites() {
         const id = item.recipe.shareAs
         dispatch(removeFromFavourites(id))
     }
-    console.log(favourites)
+    
     return (
         <>
             <header className={styles.header}>
