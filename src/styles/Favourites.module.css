@@ -1,7 +1,7 @@
 .header {
     padding: 2rem 0;
     text-align: center;
-    background-image: url("header-bg2.jpg");
+    background-image: url("/static/images/header-bg2.jpg");
 }
 
 .section{
