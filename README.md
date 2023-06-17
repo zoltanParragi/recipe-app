@@ -1,7 +1,9 @@
 # My Recipe
 
 React, React Router, React Redux, Redux Thunk használatával készült.
+
 Reszpozív portál.
+
 A használt REST API által szolgáltatott adatbázis miatt angol nyelvű oldal.
 
 ## Funkciók
